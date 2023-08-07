@@ -164,7 +164,7 @@ workbook.save(output_file)
 
 # Open the Excel file
 excel = win32.gencache.EnsureDispatch('Excel.Application')
-wb = excel.Workbooks.Open('C:\Temp\REMCo_Active_Projects_updated.xlsx')
+wb = excel.Workbooks.Open('****************')
 ws = wb.ActiveSheet
 
 # Define the range to be sorted (including all columns)
